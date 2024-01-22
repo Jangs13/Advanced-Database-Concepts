@@ -1,0 +1,342 @@
+TRUNCATE TABLE
+INSERT 0 85
+INSERT 0 14
+Problem-1a
+     c     |  p   |   s   
+-----------+------+-------
+ Microsoft | 1019 | 50000
+ Amazon    | 1008 | 50000
+ Netflix   | 1007 | 50000
+ Apple     | 1002 | 45000
+ Yahoo     | 1013 | 55000
+(5 rows)
+
+Problem-1b
+     c     |  p   |   s   
+-----------+------+-------
+ Netflix   | 1007 | 50000
+ Microsoft | 1019 | 50000
+ Yahoo     | 1013 | 55000
+ Apple     | 1002 | 45000
+ Amazon    | 1008 | 50000
+(5 rows)
+
+Problem-1c
+     c     |  p   |   s   
+-----------+------+-------
+ Amazon    | 1008 | 50000
+ Netflix   | 1007 | 50000
+ Apple     | 1002 | 45000
+ Microsoft | 1019 | 50000
+ Yahoo     | 1013 | 55000
+(5 rows)
+
+Problem-2a
+ pname | salary |   city    
+-------+--------+-----------
+ Jean  |  65000 | Cupertino
+ Chris |  60000 | Denver
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-2b
+ pname | salary |   city    
+-------+--------+-----------
+ Jean  |  65000 | Cupertino
+ Chris |  60000 | Denver
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-2c
+ pname | salary |   city    
+-------+--------+-----------
+ Latha |  60000 | LosGatos
+ Jean  |  65000 | Cupertino
+ Chris |  60000 | Denver
+(3 rows)
+
+Problem-3a
+   cname   |   cname   
+-----------+-----------
+ Microsoft | Netflix
+ Microsoft | Google
+ Microsoft | Apple
+ Microsoft | Yahoo
+ Microsoft | IBM
+ Microsoft | ACM
+ Netflix   | Microsoft
+ Netflix   | Google
+ Netflix   | Apple
+ Netflix   | Yahoo
+ Netflix   | IBM
+ Netflix   | ACM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Apple
+ Google    | Yahoo
+ Google    | IBM
+ Google    | ACM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Google
+ Apple     | Yahoo
+ Apple     | IBM
+ Apple     | ACM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+ Yahoo     | Google
+ Yahoo     | Apple
+ Yahoo     | IBM
+ Yahoo     | ACM
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Google
+ IBM       | Apple
+ IBM       | Yahoo
+ IBM       | ACM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Google
+ ACM       | Apple
+ ACM       | Yahoo
+ ACM       | IBM
+(42 rows)
+
+Problem-3b
+   cname   |   cname   
+-----------+-----------
+ Apple     | Google
+ Apple     | Netflix
+ Apple     | Microsoft
+ Apple     | IBM
+ Apple     | ACM
+ Apple     | Yahoo
+ Google    | Apple
+ Google    | Netflix
+ Google    | Microsoft
+ Google    | IBM
+ Google    | ACM
+ Google    | Yahoo
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | Microsoft
+ Netflix   | IBM
+ Netflix   | ACM
+ Netflix   | Yahoo
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | Netflix
+ Microsoft | IBM
+ Microsoft | ACM
+ Microsoft | Yahoo
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Netflix
+ IBM       | Microsoft
+ IBM       | ACM
+ IBM       | Yahoo
+ ACM       | Apple
+ ACM       | Google
+ ACM       | Netflix
+ ACM       | Microsoft
+ ACM       | IBM
+ ACM       | Yahoo
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | Netflix
+ Yahoo     | Microsoft
+ Yahoo     | IBM
+ Yahoo     | ACM
+(42 rows)
+
+Problem-3c
+   cname   |   cname   
+-----------+-----------
+ ACM       | Apple
+ ACM       | Google
+ ACM       | IBM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Yahoo
+ Apple     | ACM
+ Apple     | Google
+ Apple     | IBM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Yahoo
+ Google    | ACM
+ Google    | Apple
+ Google    | IBM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Yahoo
+ IBM       | ACM
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Yahoo
+ Microsoft | ACM
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | IBM
+ Microsoft | Netflix
+ Microsoft | Yahoo
+ Netflix   | ACM
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | IBM
+ Netflix   | Microsoft
+ Netflix   | Yahoo
+ Yahoo     | ACM
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | IBM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+(42 rows)
+
+Problem-4b
+   cname   | pid  | salary 
+-----------+------+--------
+ Amazon    | 1008 |  50000
+ Netflix   | 1007 |  50000
+ Apple     | 1002 |  45000
+ Microsoft | 1019 |  50000
+ Yahoo     | 1013 |  55000
+(5 rows)
+
+Problem-5b
+ pname | salary |   city    
+-------+--------+-----------
+ Jean  |  65000 | Cupertino
+ Chris |  60000 | Denver
+ Latha |  60000 | LosGatos
+(3 rows)
+
+Problem-6b
+   cname   |   cname   
+-----------+-----------
+ ACM       | Apple
+ ACM       | Google
+ ACM       | IBM
+ ACM       | Microsoft
+ ACM       | Netflix
+ ACM       | Yahoo
+ Apple     | ACM
+ Apple     | Google
+ Apple     | IBM
+ Apple     | Microsoft
+ Apple     | Netflix
+ Apple     | Yahoo
+ Google    | ACM
+ Google    | Apple
+ Google    | IBM
+ Google    | Microsoft
+ Google    | Netflix
+ Google    | Yahoo
+ IBM       | ACM
+ IBM       | Apple
+ IBM       | Google
+ IBM       | Microsoft
+ IBM       | Netflix
+ IBM       | Yahoo
+ Microsoft | ACM
+ Microsoft | Apple
+ Microsoft | Google
+ Microsoft | IBM
+ Microsoft | Netflix
+ Microsoft | Yahoo
+ Netflix   | ACM
+ Netflix   | Apple
+ Netflix   | Google
+ Netflix   | IBM
+ Netflix   | Microsoft
+ Netflix   | Yahoo
+ Yahoo     | ACM
+ Yahoo     | Apple
+ Yahoo     | Google
+ Yahoo     | IBM
+ Yahoo     | Microsoft
+ Yahoo     | Netflix
+(42 rows)
+
+Problem 10
+ pid  
+------
+ 1001
+ 1015
+(2 rows)
+
+Problem 11
+ pid1 | pid2 
+------+------
+ 1003 | 1011
+ 1003 | 1019
+ 1003 | 1016
+ 1003 | 1012
+ 1003 | 1009
+ 1003 | 1002
+ 1003 | 1017
+ 1003 | 1015
+ 1003 | 1010
+ 1003 | 1013
+ 1003 | 1007
+ 1003 | 1006
+ 1003 | 1001
+ 1003 | 1014
+ 1003 | 1005
+ 1003 | 1018
+ 1003 | 1004
+(17 rows)
+
+Problem 12
+ n1 | n2 
+----+----
+  8 |  8
+ 11 | 11
+  3 |  3
+  9 |  9
+ 14 | 14
+  2 |  2
+  5 |  5
+  4 |  4
+ 10 | 10
+  1 |  1
+  6 |  6
+  7 |  7
+ 15 | 15
+ 12 | 12
+ 13 | 13
+  2 |  4
+  3 |  4
+  4 |  2
+  3 |  2
+  4 |  3
+  2 |  3
+  6 |  5
+  5 |  6
+ 12 | 13
+ 13 | 12
+  9 | 10
+ 11 | 10
+ 10 |  9
+ 11 |  9
+ 10 | 11
+  9 | 11
+  7 |  5
+  7 |  6
+  5 |  7
+  6 |  7
+ 12 |  8
+ 13 |  8
+  8 | 13
+  8 | 12
+ 14 | 10
+ 14 |  9
+ 14 | 11
+  9 | 14
+ 10 | 14
+ 11 | 14
+(45 rows)
+

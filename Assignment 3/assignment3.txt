@@ -1,0 +1,163 @@
+DROP SCHEMA
+CREATE SCHEMA
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 19
+INSERT 0 8
+INSERT 0 19
+INSERT 0 15
+INSERT 0 6
+INSERT 0 37
+INSERT 0 12
+INSERT 0 66
+Problem 5
+Translating and in Where clause;
+ cname | headquarter 
+-------+-------------
+ Apple | Cupertino
+(1 row)
+
+Translation of "in" and  "=SOME" operator;
+ cname | headquarter 
+-------+-------------
+ Apple | Cupertino
+(1 row)
+
+Moving Constant condition;
+ cname | headquarter 
+-------+-------------
+ Apple | Cupertino
+(1 row)
+
+Introducing Natural join final RA SQL;
+ cname | headquarter 
+-------+-------------
+ Apple | Cupertino
+(1 row)
+
+Problem 6;
+Translation of "and" & "or" in the where clause;
+ cname  | headquarter  
+--------+--------------
+ Google | MountainView
+ Yahoo  | Sunnyvale
+(2 rows)
+
+Translation of    "[NOT] EXISTS" operator ;
+ cname  | headquarter  
+--------+--------------
+ Yahoo  | Sunnyvale
+ Google | MountainView
+(2 rows)
+
+translating not in
+ cname  | headquarter  
+--------+--------------
+ Yahoo  | Sunnyvale
+ Google | MountainView
+(2 rows)
+
+While translating not in I was facing error so continue with introducing join
+ cname  | headquarter  
+--------+--------------
+ Yahoo  | Sunnyvale
+ Google | MountainView
+ Amazon | Seattle
+ Apple  | Cupertino
+(4 rows)
+
+Problem 7;
+ pid  |     city     
+------+--------------
+ 1009 | Bloomington
+ 1012 | Cupertino
+ 1013 | Indianapolis
+ 1017 | LosGatos
+(4 rows)
+
+Translation of ‘and’ in the ‘where’ clause;
+ pid  |     city     
+------+--------------
+ 1009 | Bloomington
+ 1012 | Cupertino
+ 1013 | Indianapolis
+ 1017 | LosGatos
+(4 rows)
+
+Translation of "IN" and  "=SOME" operator;
+ pid  |     city     
+------+--------------
+ 1009 | Bloomington
+ 1012 | Cupertino
+ 1013 | Indianapolis
+ 1017 | LosGatos
+(4 rows)
+
+ Tranlating "FALSE = ALL AND EXISITS caluse";
+ pid  |     city     
+------+--------------
+ 1009 | Bloomington
+ 1017 | LosGatos
+ 1013 | Indianapolis
+ 1012 | Cupertino
+(4 rows)
+
+ Introducting JOIN and Removing constant condition
+ pid  |     city     
+------+--------------
+ 1009 | Bloomington
+ 1017 | LosGatos
+ 1013 | Indianapolis
+ 1012 | Cupertino
+(4 rows)
+
+Problem 8;
+   cname   
+-----------
+ Microsoft
+(1 row)
+
+Translation of "and" & "OR" in where clause
+   cname   
+-----------
+ Microsoft
+(1 row)
+
+Translating "[NOT]IN" and "=TRUE ALL" ;
+   cname   
+-----------
+ Microsoft
+(1 row)
+
+Introducing Joins and removing constant constraint
+   cname   
+-----------
+ Microsoft
+(1 row)
+
+Translating OR again to union as it was getting confusing before
+   cname   
+-----------
+ Microsoft
+(1 row)
+
+Problem 9;
+Translation of and in where;
+ pid  
+------
+ 1001
+(1 row)
+
+Introducing join and removing constant conditions
+ pid  
+------
+ 1001
+(1 row)
+
+DROP DATABASE

@@ -1,0 +1,368 @@
+Problem 1
+      c       |   pn   
+--------------+--------
+ Cupertino    | Jean
+ Seattle      | Anna
+ Seattle      | Qin
+ Chicago      | Ryan
+ Bloomington  | Hasan
+ Chicago      | Linda
+ MountainView | Nick
+ Indianapolis | Lisa
+ Denver       | Chris
+ Chicago      | YinYue
+ LosGatos     | Latha
+ NewYork      | John
+(12 rows)
+
+Problem 2
+ pid  | pname  
+------+--------
+ 1001 | Jean
+ 1002 | Vidya
+ 1003 | Anna
+ 1004 | Qin
+ 1008 | Emma
+ 1015 | Chris
+ 1016 | YinYue
+ 1018 | Arif
+(8 rows)
+
+Problem 3
+        s1        |        s2        
+------------------+------------------
+ AI               | AI
+ Databases        | Databases
+ Databases        | Networks
+ Networks         | Databases
+ Networks         | Networks
+ OperatingSystems | OperatingSystems
+ Programming      | Programming
+(7 rows)
+
+Problem 4
+ pid  
+------
+ 1004
+ 1010
+(2 rows)
+
+Problem 5
+ cname  
+--------
+ Amazon
+ Apple
+ Google
+(3 rows)
+
+Problem 6
+  cname  |   a   
+---------+-------
+ Amazon  | 55000
+ Apple   | 45000
+ Google  | 70000
+ Netflix | 60000
+(4 rows)
+
+Problem 7
+a
+CREATE FUNCTION
+ pid | cname | salary 
+-----+-------+--------
+(0 rows)
+
+b
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1018 |  50000 |              1
+ 1001 |  65000 |              2
+ 1002 |  45000 |              2
+ 1009 |  60000 |              3
+ 1012 |  50000 |              3
+ 1014 |  50000 |              4
+(6 rows)
+
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1008 |  50000 |              0
+ 1003 |  55000 |              0
+ 1016 |  55000 |              2
+ 1010 |  55000 |              2
+ 1015 |  60000 |              2
+ 1004 |  55000 |              2
+ 1006 |  55000 |              3
+(7 rows)
+
+ pid | salary | numberofskills 
+-----+--------+----------------
+(0 rows)
+
+c
+CREATE FUNCTION
+d
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1018 |  50000 |              1
+ 1001 |  65000 |              2
+ 1002 |  45000 |              2
+ 1009 |  60000 |              3
+ 1012 |  50000 |              3
+ 1014 |  50000 |              4
+(6 rows)
+
+ pid  | salary | numberofskills 
+------+--------+----------------
+ 1008 |  50000 |              0
+ 1003 |  55000 |              0
+ 1016 |  55000 |              2
+ 1010 |  55000 |              2
+ 1015 |  60000 |              2
+ 1004 |  55000 |              2
+ 1006 |  55000 |              3
+(7 rows)
+
+ pid | salary | numberofskills 
+-----+--------+----------------
+(0 rows)
+
+e
+  cname  | pid  
+---------+------
+ Amazon  | 1006
+ Google  | 1011
+ Yahoo   | 1013
+ Netflix | 1017
+(4 rows)
+
+Problem 8
+CREATE FUNCTION
+CREATE VIEW
+ pid  | pname  
+------+--------
+ 1003 | Anna
+ 1006 | Ryan
+ 1016 | YinYue
+ 1018 | Arif
+(4 rows)
+
+Problem 9
+CREATE FUNCTION
+CREATE VIEW
+   cname   
+-----------
+ Google
+ Microsoft
+ IBM
+ ACM
+ Yahoo
+(5 rows)
+
+Problem 10
+CREATE FUNCTION
+CREATE VIEW
+ pid  | pname 
+------+-------
+ 1008 | Emma
+(1 row)
+
+Problem 11
+CREATE FUNCTION
+CREATE VIEW
+ cname  
+--------
+ Amazon
+(1 row)
+
+Problem 12
+CREATE FUNCTION
+ pid  | pid  
+------+------
+ 1001 | 1002
+ 1001 | 1004
+ 1001 | 1007
+ 1001 | 1010
+ 1001 | 1015
+ 1001 | 1016
+ 1001 | 1019
+ 1002 | 1001
+ 1002 | 1004
+ 1002 | 1007
+ 1002 | 1010
+ 1002 | 1015
+ 1002 | 1016
+ 1002 | 1019
+ 1004 | 1001
+ 1004 | 1002
+ 1004 | 1007
+ 1004 | 1010
+ 1004 | 1015
+ 1004 | 1016
+ 1004 | 1019
+ 1005 | 1013
+ 1005 | 1014
+ 1006 | 1009
+ 1006 | 1012
+ 1006 | 1017
+ 1007 | 1001
+ 1007 | 1002
+ 1007 | 1004
+ 1007 | 1010
+ 1007 | 1015
+ 1007 | 1016
+ 1007 | 1019
+ 1009 | 1006
+ 1009 | 1012
+ 1009 | 1017
+ 1010 | 1001
+ 1010 | 1002
+ 1010 | 1004
+ 1010 | 1007
+ 1010 | 1015
+ 1010 | 1016
+ 1010 | 1019
+ 1012 | 1006
+ 1012 | 1009
+ 1012 | 1017
+ 1013 | 1005
+ 1013 | 1014
+ 1014 | 1005
+ 1014 | 1013
+ 1015 | 1001
+ 1015 | 1002
+ 1015 | 1004
+ 1015 | 1007
+ 1015 | 1010
+ 1015 | 1016
+ 1015 | 1019
+ 1016 | 1001
+ 1016 | 1002
+ 1016 | 1004
+ 1016 | 1007
+ 1016 | 1010
+ 1016 | 1015
+ 1016 | 1019
+ 1017 | 1006
+ 1017 | 1009
+ 1017 | 1012
+ 1019 | 1001
+ 1019 | 1002
+ 1019 | 1004
+ 1019 | 1007
+ 1019 | 1010
+ 1019 | 1015
+ 1019 | 1016
+(74 rows)
+
+Problem 13
+CREATE FUNCTION
+CREATE TRIGGER
+Problem 14
+CREATE FUNCTION
+CREATE TRIGGER
+Problem 15
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE FUNCTION
+CREATE TRIGGER
+CREATE FUNCTION
+CREATE TRIGGER
+INSERT 0 1
+INSERT 0 1
+ a  
+----
+ 15
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+ a  
+----
+ 15
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+ a  
+----
+ 15
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+  a  
+-----
+  15
+ 101
+(2 rows)
+
+DROP TABLE
+DROP TABLE
+DROP TABLE
+Problem 16
+CREATE FUNCTION
+CREATE TRIGGER
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+ pid | skill 
+-----+-------
+(0 rows)
+
+ pid | skill 
+-----+-------
+(0 rows)
+
+ pid | skill 
+-----+-------
+(0 rows)
+
+ pid | skill 
+-----+-------
+(0 rows)
+
+ pid | skill 
+-----+-------
+(0 rows)
+
+DELETE 0
+DELETE 3
+DELETE 2
+DELETE 5
+Problem 17
+SELECT 66
+CREATE FUNCTION
+CREATE FUNCTION
+CREATE TRIGGER
+UPDATE 1
+ pid1 | pid2 
+------+------
+ 1005 | 1015
+ 1005 | 1001
+ 1005 | 1012
+(3 rows)
+
+ retain_data 
+-------------
+ 
+(1 row)
+
+UPDATE 1
+ pid1 | pid2 
+------+------
+ 1005 | 1015
+(1 row)
+
+ retain_data 
+-------------
+ 
+(1 row)
+
+DROP TABLE
